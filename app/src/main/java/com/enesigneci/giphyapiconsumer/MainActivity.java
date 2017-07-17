@@ -11,9 +11,6 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.enesigneci.giphyapiconsumer.Giphy.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -26,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final String API_KEY="01c7ea49740d48fdbe9b59d3a3ad667c";
+        final String API_KEY="YOUR API KEY";
         Button btnFetchGif;
         final EditText etGifName;
         btnFetchGif= (Button) findViewById(R.id.btn_fetch_gif);
